@@ -1,0 +1,23 @@
+{
+  "name": "blackboard",
+  "version": "1.0.0",
+  "description": "Blackboard with socket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nithinpp69:n2*p0914@github.com/nithinpp69/blackboard.git"
+  },
+  "author": "Nithin P P",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nithinpp69/blackboard/issues"
+  },
+  "homepage": "https://github.com/nithinpp69/blackboard#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
