@@ -1,5 +1,6 @@
 var board;
 var socket;
+// var port = process.env.PORT || 3000;
 
 function centerCanvas() {
   var x = (windowWidth - width) / 2;
@@ -9,7 +10,7 @@ function centerCanvas() {
 
 function setup() {
   cnv = createCanvas(windowWidth, windowHeight);
-  socket = io.connect('https://nithinpp69.github.io/blackboard');
+  socket = io.connect(window.location.origin);
   socket.on('draw', (data) => {
     noStroke();
     fill(0, 0, 255);
